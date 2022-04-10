@@ -1,0 +1,50 @@
+
+ styles.css 
+* {background-color: aquamarine;}
+
+#header {  
+     color: aqua;
+     box-sizing: border-box;
+     padding: 40px;
+     background-color:antiquewhite;
+     width:100%;
+       }
+
+#header a {
+font-size: large;
+font-style: normal;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
+color: palevioletred
+
+}
+
+#navbar{ 
+    width:100%;
+    height: 40px;
+    color:aquamarine;
+    float: right;
+
+
+}
+
+#button {
+display:inline-block;     
+margin-top: 20px;
+float: inline-end;
+margin-left: 10ch;
+
+
+
+
+}
+
+
+
+h1 { 
+    color: antiquewhite;
+    size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+

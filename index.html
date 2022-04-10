@@ -1,20 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./VScode/styles/styles.css" />
+    <title>Landing Page</title>
+  
+</head>
 
-</head> 
-    <nav> 
-        <a href = ""> Home </a>
-        <a href = ""> Home </a>
-        <a href = ""> Home </a>
+  <body>
+    <!-- header with nav bar -->
+    <header id="header">
+      <nav id="navbar">
+
+        <nav id="button"><a href="#home">Home</a></nav>
+        <nav id="button"><a href="#about-us">About Us</a></nav>
+        <nav id="button"><a href="#contact">Contact</a></nav>
 
 
-    </nav>
-<body>
-    
-</body>
+      </nav>
+    </header>
+
+    <!-- main section of the webpage -->
+    <main>
+      <!-- section containing title and image -->
+      <section id="home">
+        <h1>Home</h1>
+
+        <!-- image container -->
+        <div> 
+          <img class = "sunset" src="./assets/sunset.png" alt="sunset by the beach" />
+        </div>
+      </section>
+
+      <!-- about us section -->
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+          minima eum quod quisquam et voluptates, libero corporis ut. Pariatur
+          laboriosam officia consectetur blanditiis autem amet unde. Obcaecati
+          necessitatibus blanditiis nulla!
+        </p>
+      </section>
+
+      <!-- section containing form -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+
+        <!-- contact form with name and email -->
+        <form>
+          <div>
+            <input type="text" placeholder="Enter full name" />
+          </div>
+          <div>
+            <input type="text" placeholder="Enter email address" />
+          </div>
+          <div>
+            <button>Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- webpage footer -->
+    <footer>
+
+    </footer>
+  </body>
 </html>
+
+
+
+
+
